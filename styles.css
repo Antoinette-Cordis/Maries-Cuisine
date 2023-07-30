@@ -14,4 +14,13 @@ nav li {
 img.maries {
   display: block;
   margin: 50px auto;
+  padding: 20px 10px;
+}
+img.soup {
+  max-width: 35%;
+}
+.delicacy {
+  display: block;
+  padding: 0;
+  margin: 0 auto;
 }
