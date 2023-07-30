@@ -1,0 +1,17 @@
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+img.maries {
+  display: block;
+  margin: 50px auto;
+}
