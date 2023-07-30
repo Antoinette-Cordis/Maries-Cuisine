@@ -24,17 +24,40 @@
   </head>
   <body>
     <div class="container-fluid">
-      <nav class="d-flex justify-content-between">
-        <section>maries</section>
-        <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/menu.html">Menu</a></li>
-          <li><a href="/contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="row bg-light social-links">
+        <div class="col-6 mt-3">MARIES</div>
+        <div class="col-6">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/">antoinettecordis</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="/"
+                    >Home</a
+                  >
+                  <a class="nav-link" href="/about.html">About</a>
+                  <a class="nav-link" href="/menu.html">Menu</a>
+                  <a class="nav-link" href="/contact.html">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
 
-      <h1 class="text-center">MARIES CUISINE</h1>
+      <h1 class="text-center mt-5">MARIES CUISINE</h1>
       <img src="maries.jpg" alt="maries restaurant" class="img-fluid maries" />
     </div>
     <div class="container">
@@ -127,5 +150,22 @@
         </div>
       </div>
     </div>
+    <footer class="design">
+      <div class="d-flex block justify-content-center">
+        <a href="mailto:antoinettecordis@gmail.com" class="email-link"
+          >antoinettecordis@gmail.com</a
+        >
+      </div>
+      <div class="contact-links d-flex block justify-content-center">
+        <a href="#">
+          <i class="fa-brands fa-facebook p-4"></i>
+        </a>
+        <a href="#"> <i class="fa-brands fa-instagram p-4"></i></a>
+        <a href="#">
+        <i class="fa-brands fa-whatsapp p-4"></i></a>
+        <a href="#">
+        <i class="fa-brands fa-github p-4"></i></a>
+      </div>
+    </footer>
   </body>
 </html>
