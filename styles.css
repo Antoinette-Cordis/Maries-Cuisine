@@ -80,9 +80,9 @@ img.soup {
   color: blue;
 }
 .cordis {
-  width: 500px;
-  height: 450px;
   border-radius: 3px;
+  margin-top: 5px;
+  padding: 2px 2px;
 }
 p {
   font-family: var(--secondary-font);
